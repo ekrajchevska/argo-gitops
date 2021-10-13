@@ -8,7 +8,7 @@ metadata:
 spec:
   project: staging
   source:
-    repoURL: https://github.com/stefankochev/argo-gitops
+    repoURL: https://github.com/ekrajchevska/argo-gitops
     targetRevision: HEAD
     path: argo-cd
   destination:
