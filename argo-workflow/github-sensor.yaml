@@ -158,7 +158,7 @@ spec:
                       - name: repo_name
                         value: ""
                       - name: image_owner
-                        value: evgenija1
+                        value: ekrajchevska
                       - name: image_name
                         value: "argo-app"
                       - name: tag
