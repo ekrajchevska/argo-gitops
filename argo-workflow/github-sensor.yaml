@@ -123,7 +123,7 @@ spec:
                       - name: app_repo
                         value: ""
                       - name: container_image
-                        value: stefankochev/argo-kaniko-test
+                        value: evgenija1/argo-app
                       - name: container_tag
                         value: ""
                     dependencies:
@@ -154,13 +154,13 @@ spec:
                       - name: environment
                         value: main
                       - name: repo_owner
-                        value: stefankochev
+                        value: evgenija1
                       - name: repo_name
                         value: ""
                       - name: image_owner
-                        value: stefankochev
+                        value: evgenija1
                       - name: image_name
-                        value: "argo-kaniko-test"
+                        value: "argo-app"
                       - name: tag
                         value: ""
                     dependencies:
