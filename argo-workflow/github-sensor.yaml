@@ -154,7 +154,7 @@ spec:
                       - name: environment
                         value: main
                       - name: repo_owner
-                        value: evgenija1
+                        value: ekrajchevska
                       - name: repo_name
                         value: ""
                       - name: image_owner
