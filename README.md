@@ -1,7 +1,7 @@
 ## GitOps with Argo Project
 Setting up a Kubernetes Native Continuous Deployment pipeline, following the 
 [GitOps](https://www.gitops.tech/) principles, using the 
-[ArgoProject Tools](https://argoproj.github.io/).
+[ArgoProject Tools](https://argoproj.github.io/)
 
 Reference/Tutorials (by [DevOpsToolkit](https://www.youtube.com/c/DevOpsToolkit)):
 - [Argo Workflows Tutorial](https://www.youtube.com/watch?v=UMaivwrAyTA)
