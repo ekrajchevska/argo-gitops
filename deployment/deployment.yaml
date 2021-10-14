@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: flask-api
-          image: evgenija1/argo-app:v2
+          image: evgenija1/argo-app:89825ac58e80192855b212e4eb9ccbaa27872a92
           imagePullPolicy: 'IfNotPresent'
           ports:
             - containerPort: 5000
