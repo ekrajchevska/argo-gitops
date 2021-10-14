@@ -7,7 +7,7 @@ app = flask.Flask(__name__)
 
 @app.route("/", methods=["GET"])
 def endpoint():
-    return jsonify({"message": "Test Service", "version": "v2"})
+    return jsonify({"message": "Hello world!", "version": "v2"})
 
 
 if __name__ == "__main__":
