@@ -1,8 +1,8 @@
 ---
 apiVersion: argoproj.io/v1alpha1
-kind: EventSource
+kind: EventSource     # tuka definirame event source, vo slucajov github webhook (listener)
 metadata:
-  name: github-event-source
+  name: github-event-source 
   namespace: argo-events
 spec:
   service:
@@ -10,7 +10,7 @@ spec:
     - port: 12000
       targetPort: 12000
   github:
-    argo-gitops:
+    argo-gitops:      # imeto na github listenerot, eventName actually (custom, kako sakame)
       owner: stefankochev
       repository: argo-test
       webhook:
