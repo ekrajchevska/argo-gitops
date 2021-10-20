@@ -12,7 +12,7 @@ metadata:
   resourceVersion: "11068"
   uid: a7032bf0-f29c-447c-b8d1-9e35a736433e
 spec:
-  dependencies:   # dependency za sensor-ot (sensorot slusa na vakvite eventi -> subscribe), tuka se def. event-sources, moze pojke
+  dependencies:   #  dependency za sensor-ot (sensorot slusa na vakvite eventi -> subscribe), tuka se def. event-sources, moze pojke
   - name: github
     eventSourceName: github-event-source
     eventName: argo-gitops
